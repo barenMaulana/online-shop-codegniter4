@@ -1,0 +1,546 @@
+/* primary color : #04C59A */
+
+html
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand
+{
+    color: #023d30 !important;
+}
+
+.header-custom
+{
+    background-image: url("../img/daun2.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position-y: -150px;
+    background-attachment: fixed;
+}
+
+.jumbotron h1
+{
+    font-size: 65px;
+    margin-top: 6%;
+    font-family: 'Assistant', sans-serif;
+}
+
+.jumbotron p
+{
+    margin-top: -10px;
+    color: rgb(65, 63, 63);
+    font-size: 1.1em;
+    font-family: 'poppins', sans-serif;
+}
+
+.container .brand-unicorn
+{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+
+.container .row .image-unicorn img
+{
+        width: 80px !important;
+}
+
+.container .cta-button-product 
+{
+    margin-top: 250px;
+}
+
+.container .cta-button-product h2
+{
+    font-family: 'Merriweather', serif;
+}
+
+.container .cta-button-product p
+{
+    font-family: "poppins",sans-serif;
+    color: rgb(97, 97, 97);
+}
+
+.cta-button-custom-product
+{
+    font-family: "poppins",sans-serif;
+    background-color: #04C59A;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: .3s ease;
+}
+
+.cta-button-custom-product:hover
+{
+    background-color: rgb(5, 150, 118);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    color: white;
+}
+
+.container .cta-button-product .col:nth-child(2) img
+{
+    margin-top: -25px;
+}
+
+main .container
+{
+    margin-bottom: 70px;
+}
+
+main .fast-response
+{
+    margin-top: -100px;
+}
+
+.modal-body .row .col .wa-image
+{
+    margin-left: -10px;
+}
+
+main .container .curious-img
+{
+    width: 70%;
+}
+
+.responsive-image-describe
+{
+    display: none;
+}
+
+.container-popular-produk
+{
+    margin-top: 100px;
+}
+
+.container-popular-produk .popular-produk h2
+{
+    font-family: 'Merriweather', serif;
+}
+
+.container-popular-produk .popular-produk p
+{
+ font-family: "poppins",sans-serif;
+ color: rgb(94, 94, 94);
+}
+
+.container .custom-card
+{
+    margin-top: 50px;
+    transition: .5s ease;
+}
+
+.container .custom-card:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .custom-card .card-title
+{
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container .custom-card .card-text
+{
+    font-family: "Poppins",sans-serif;
+    font-size: 12px;
+}
+
+.container .custom-card .card-body p
+{
+    font-size: 14px;
+    color: rgb(75, 75, 75);
+}
+
+.btn-add-to-cart
+{
+    transition: .5s ease;
+    background-color: rgb(231, 38, 31);
+}
+
+.btn-add-to-cart:hover
+{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.btn-add-to-cart:active
+{
+   transform: scale(1.1);
+}
+
+.btn-description-custom
+{
+    background-color: #fc6124;
+    color: white;
+    width: 70%;
+}
+
+.button-cta-more-product
+{
+    margin-top: 50px !important;
+    transition: .3s ease;
+    font-family: "poppins",sans-serif;
+    border: 1px solid rgb(160, 159, 159);
+    color: rgb(122, 122, 122);
+}
+
+.button-cta-more-product:hover
+{
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.carousel-inner .carousel-item img
+{
+    border-radius: 10px;
+    margin: auto;
+}
+
+.gallery-image-small
+{
+    column-count: 4;
+    padding-right: 16px;
+}
+
+.gallery-image-small img
+{
+    border-radius: 20px ;
+    margin: 10px;
+    width: 100%;
+}
+
+.panduan-pemesanan
+{
+    column-count: 3;
+}
+
+.panduan-pemesanan .col h2
+{
+    font-family: "Merriwheater",sans-serif;
+}
+
+.panduan-pemesanan .col p
+{
+    font-family: "poppins",sans-serif;
+    color: rgb(109, 109, 109);
+}
+
+.penawaran-terakhir
+{
+    font-family: "Merriwheater",sans-serif;
+}
+
+footer .jumbotron
+{
+    background-color: rgba(77, 199, 172, 0.671);
+}
+
+footer .jumbotron .container h6
+{
+    font-family: "Merriweather",sans-serif ;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+footer .container .footer-logo p
+{
+    font-family: "Assistant",sans-serif;
+}
+
+footer .container .col
+{
+    text-align: center;
+}
+
+footer .container .col h6
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+}
+
+footer .container .col a
+{
+    font-size: 15px;
+    color: rgb(124, 124, 124);
+    font-family: "Poppins",sans-serif;
+}
+
+.end-of-footer
+{
+    font-family: "Assistant";
+    color: rgb(168, 168, 168);
+    font-weight: thin;
+}
+
+.custom-login-image
+{
+    background-image: url('../img/carousel/anggrek1.jpg');
+    background-size: cover;
+}
+
+.custom-register-image
+{
+    background-image: url('../img/carousel/anggrek3.jpg');
+    background-size: cover;
+}
+
+.bg-custom-register
+{
+    background-color: #dfe4ea;
+    padding-top: 6%;
+}
+
+.list-group-detail-custom
+{
+    font-size: 15px;
+}
+
+.img-slider-detail
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img-slider-detail img
+{
+    position: absolute;
+}
+
+.banner-product-indah-taman
+{
+    background-image: url('../img/gallery/kambing.jpg') !important;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-product-indah-taman-utama
+{
+    background-image: url('../img/gallery/bunga-ungu.jpg') !important;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+/* mobile screen */
+@media( max-width : 951px ){
+    .jumbotron h1{
+        font-size: 40px;
+        margin-top: 10%;
+        color: #023d30;
+    }
+    .header-custom{
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-position-y: -240px;
+        background-attachment: scroll;
+    }
+    .jumbotron p{
+        font-size: 15px;
+        background-color: rgba(228, 228, 228, 0.781);
+        border-radius: 10px;
+        padding: 3px 5px;
+        color: #085c4a;
+        text-align: center;
+    }
+    .navbar-collapse{
+        background-color: #3d3d3d;
+        text-align: center;
+        border-radius: 10px;
+        padding: 50px 10px;
+    }
+    .navbar-nav a{
+        color: whitesmoke !important;
+    }
+}
+
+
+@media( max-width : 689px ){
+    .jumbotron h1{
+        font-size: 40px;
+        margin-top: 10%;
+        color: #023d30;
+    }
+    .header-custom{
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        
+    }
+    .jumbotron p{
+        font-size: 15px;
+        background-color: rgba(228, 228, 228, 0.781);
+        border-radius: 10px;
+        padding: 3px 5px;
+        color: #085c4a;
+        text-align: center;
+    }
+    .navbar-collapse{
+        background-color: #3d3d3d;
+        text-align: center;
+        border-radius: 10px;
+        padding: 50px 10px;
+    }
+    .navbar-nav a{
+        color: whitesmoke !important;
+    }
+    .container .cta-button-product .image-describe
+    {
+        display: none;
+    }
+    .container .cta-button-product 
+    {
+        margin-top: 100px;
+    }
+    .container .cta-button-product h2
+    {
+        font-family: "Assistant",sans-serif;
+        font-size: 25px;
+    }
+    .container .cta-button-product p
+    {
+        font-family: "poppins",sans-serif;
+        color: rgb(97, 97, 97);
+        font-size: 12px;
+    }
+    main .fast-response
+    {
+        margin-top: -50px;
+    }
+    .responsive-image-describe
+    {
+        display: block;
+        margin-bottom: -90px;
+        margin-top: 100px;
+    }
+    .container-popular-produk .popular-produk p
+    {
+        font-size: 12px;
+    }
+    .btn-description-custom
+    {
+     width: 70%;   
+    }
+    .carousel-inner .carousel-item img
+    {
+        padding: 0px;
+    }
+    .gallery-image-small
+    {
+        column-count: 3;
+        padding-right: 3px;
+    }
+    .gallery-image-small img
+    {
+        border-radius: 10px ;
+        width: 100%;
+        margin: 8px 0px 8px 0px;
+    }
+    .panduan-pemesanan
+    {
+        column-count: 1;
+    }
+    .panduan-pemesanan .col img
+    {
+    width: 80%;        
+    }
+    .panduan-pemesanan .col h2
+    {
+        font-family: "Merriwheater",sans-serif;
+        font-size: 20px;
+    }
+    .panduan-pemesanan .col p
+    {
+        font-family: "poppins",sans-serif;
+        color: rgb(109, 109, 109);
+        font-size: 12px;
+    }
+    .panduan-pemesanan .col 
+    {
+        margin-bottom: 50px;
+    }
+    footer .container .col
+    {
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer .container .col h6
+    {
+        font-size: 17px;
+        font-weight: bold;
+        font-family: "Poppins",sans-serif;
+    }
+    footer .container .col a
+    {
+        font-size: 15px;
+        color: rgb(124, 124, 124);
+        font-family: "Poppins",sans-serif;
+    }
+    .bg-custom-register
+    {
+        background-color: #f5f6fa;
+        padding-top: 0%;
+    }
+    .list-group-detail-custom
+    {
+        font-size: 12px;
+    }
+    .banner-product-indah-taman
+    {
+        display: none;
+    }
+
+}
+
+@media( max-width : 600px ){
+    .jumbotron h1{
+        font-size: 25px;
+        margin-top: 45%;
+        color: #023d30;
+    }
+    .header-custom{
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-position-y: -0px;
+    }
+    .jumbotron p{
+        font-size: 15px;
+        background-color: rgba(228, 228, 228, 0.568);
+        border-radius: 10px;
+        padding: 3px 5px;
+        color: #085c4a;
+    }
+    .navbar-collapse{
+        background-color: #3d3d3d;
+        text-align: center;
+        border-radius: 10px;
+        padding: 50px 10px;
+    }
+    .navbar-nav a{
+        color: whitesmoke !important;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .container .row  .image-unicorn img
+    {
+        width: 50px !important;
+    }
+}
